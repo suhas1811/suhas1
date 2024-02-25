@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>
+html forms
+		</title>
+	<style>
+		form{
+		    	font-family: calibri,sans-serif;
+			background-color : lightgray;
+			padding: 10px;
+		    }
+		fieldset{
+			  border: 2px solid gray;
+			  background-color: lightgoldenrodyellow;
+			  margin: 10px;
+			}
+		legend{
+			background-color: lightpink;
+		      }
+	</style>
+	</head>
+<body>
+	<form>
+		<label>Select Cars</label>
+		<select>
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="RollsRoyce">RollsRoyce</option>
+			<option value="Maruthi">Maruthi</option>
+		</select><br>
+		<label>Select Vehicals</label>
+			<select>
+			<optgroup label="bikes">
+				<option value="Yamaha">Yamaha</option>
+				<option value="RoyalEnfield">RoyalEnfield</option>
+				<option value="Duke">Duke</option>
+			</optgroup>
+			<optgroup label="Cars">
+				<option value="BMW">BMW</option>
+				<option value="Audi">Audi</option>
+				<option value="RollsRoyce">RollsRoyce</option>
+				<option value="Maruthi">Maruthi</option>
+			</optgroup>
+			</select>
+		<label for="username">Username</label>
+		<input type="text" id="username" placeholder="Username"><br>
+		<label>Password</label>
+		<input type="password"><br>
+		<label>Email</label>
+		<input type="email"><br>
+		<label>Color</label>
+		<input type="color"><br>
+		<label>Date</label>
+		<input type="date"><br>
+		<label>Date & Timel</label>
+		<input type="datetime-local"><br	
+		<label>File</label>
+		<input type="file"><br>
+		<label>Month</label>
+		<input type="month"><br>
+		<label>Number</label>
+		<input type="number"><br>
+		<label>Technologies</label>
+		<input type="checkbox" value="html">HTML
+		<input type="checkbox" value="CSS">CSS
+		<input type="checkbox" value="Java">Java
+		<br>
+		<label>Gender</label>
+		<input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="female">Female
+		<br>
+		<label>Range</label>
+		1000<input type="range" min="1000" max="50000">50000<br>
+		<label>Bio</label>
+		<textarea rows="3" cols="40"></textarea>
+		<input type="submit">
+		<input type="reset"><br>
+	</form>
+	<form>
+		<fieldset>
+			<legend>Personal information</legend>
+			<label for="username">Username</label>
+			<input type="text" id="username" placeholder="Username"><br>
+			<label>Password</label>
+			<input type="password">
+		</fieldset>
+		<fieldset>
+			<legend>Educational</legend>
+			<label for="username">College Name</label>
+			<input type="text" id="username"><br>
+			<label>Passout Year</label>
+			<input type="month">
+		</fieldset>
+		<input type="submit" value="Enroll">
+		<input type="reset">
+	</form>
+</body>
+</html>
